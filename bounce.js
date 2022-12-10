@@ -15,8 +15,8 @@ let vx = 1;
 let vy = 1;
 
 // set up initial position and velocity for new image
-let x2 = mouseX;
-let y2 = mouseY;
+let x2 = 100;
+let y2 = 200;
 let vx2 = -1;
 let vy2 = -1;
 
