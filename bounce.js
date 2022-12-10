@@ -4,9 +4,9 @@ const ctx = canvas.getContext('2d');
 
 // create image objects for original and new image
 const image1 = new Image();
-image1.src = 'image1.png';
+image1.src = 'winston.png';
 const image2 = new Image();
-image2.src = 'image2.png';
+image2.src = 'winston.png';
 
 // set up initial position and velocity for original image
 let x = 50;
