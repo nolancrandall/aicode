@@ -62,7 +62,7 @@ function update() {
     }
 
     // check for collision between the two images
-    if (x < x2 + 50 && x + 50 > x2 && y < y2 + 50 && y + 50 > y2) {
+    if (x < x2 + 40 && x + 40 > x2 && y < y2 + 40 && y + 40 > y2) {
       // handle collision
       vx = -vx2;
       vx2 = -vx2;
