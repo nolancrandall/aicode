@@ -9,16 +9,16 @@ const image2 = new Image();
 image2.src = 'winston.png';
 
 // set up initial position and velocity for original image
-let x = 50;
-let y = 50;
-let vx = 1;
-let vy = 1;
+let x = 100;
+let y = 100;
+let vx = 2;
+let vy = 2;
 
 // set up initial position and velocity for new image
 let x2 = 100;
 let y2 = 200;
-let vx2 = -1;
-let vy2 = -1;
+let vx2 = -2;
+let vy2 = -2;
 
 // function to draw the images on the canvas
 function draw() {
