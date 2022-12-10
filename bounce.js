@@ -11,14 +11,14 @@ image2.src = 'winston.png';
 // set up initial position and velocity for original image
 let x = 50;
 let y = 50;
-let vx = 5;
-let vy = 5;
+let vx = 1;
+let vy = 1;
 
 // set up initial position and velocity for new image
-let x2 = 100;
-let y2 = 100;
-let vx2 = -5;
-let vy2 = -5;
+let x2 = mouseX;
+let y2 = mouseY;
+let vx2 = -1;
+let vy2 = -1;
 
 // function to draw the images on the canvas
 function draw() {
