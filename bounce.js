@@ -16,7 +16,7 @@ let vy = 2;
 
 // set up initial position and velocity for new image
 let x2 = 100;
-let y2 = 200;
+let y2 = 100;
 let vx2 = -2;
 let vy2 = -2;
 
